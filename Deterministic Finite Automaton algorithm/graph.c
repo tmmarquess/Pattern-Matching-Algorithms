@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "edge.c"
 
 typedef struct vertex
