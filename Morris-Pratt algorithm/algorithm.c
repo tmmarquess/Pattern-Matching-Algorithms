@@ -48,4 +48,10 @@ int main()
 
     printf("===========\n");
     MP(pattern, strlen(pattern), string, strlen(string));
+
+    string = "ABCABCABCABC";
+    pattern = "ABCABC";
+
+    printf("===========\n");
+    MP(pattern, strlen(pattern), string, strlen(string));
 }

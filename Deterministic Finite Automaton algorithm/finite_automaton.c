@@ -72,4 +72,6 @@ int main()
     search_pattern("GCAGAGAG", "GCATCGCAGAGAGTATACAGTACG");
     printf("===============\n");
     search_pattern("GCAGAGAG", "GCATCGCAGAGAGTATACAGTAGCAGAGAGCG");
+    printf("===============\n");
+    search_pattern("ABCABC", "ABCABCABCABC");
 }

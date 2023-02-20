@@ -38,7 +38,13 @@ int main()
     KR(pattern, strlen(pattern), string, strlen(string));
 
     string = "GCATCGCAGAGAGTATACAGTAGCAGAGAGCG";
-    
+
+    printf("===========\n");
+    KR(pattern, strlen(pattern), string, strlen(string));
+
+    string = "ABCABCABCABC";
+    pattern = "ABCABC";
+
     printf("===========\n");
     KR(pattern, strlen(pattern), string, strlen(string));
 }
