@@ -24,17 +24,6 @@ itens *create_itens_list(int size)
     return lista;
 }
 
-void delete_list(itens **list)
-{
-    itens *lista = (*list);
-    for (int i = 0; i < lista->amount; i++)
-    {
-        free(lista->itens[i]);
-    }
-    free(lista->itens);
-    free(lista);
-}
-
 bool is_item_on_list(itens **list, char *item)
 {
     itens *lista = (*list);
@@ -166,7 +155,6 @@ int main()
         }
         order_alphabetically(&list);
         print_list(list);
-        // delete_list(&list);
         free(list);
     }
 }
