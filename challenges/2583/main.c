@@ -8,7 +8,7 @@
 #define true 1
 #define false 0
 
-// https://www.beecrowd.com.br/judge/pt/problems/view/2974
+// https://www.beecrowd.com.br/judge/pt/problems/view/2583
 
 typedef struct itens
 {
