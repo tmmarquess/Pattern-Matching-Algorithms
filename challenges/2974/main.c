@@ -8,7 +8,7 @@
 #define true 1
 #define false 0
 
-// https://www.beecrowd.com.br/judge/pt/problems/view/3313
+// https://www.beecrowd.com.br/judge/pt/problems/view/2974
 
 bool KR(char *x, int m, char *y, int n)
 {
