@@ -27,7 +27,7 @@ void reset_list(match **matches_list)
 {
     match *list = (*matches_list);
     free(list->index_list);
-    list->index_list = malloc(sizeof(int *));
+    list->index_list = malloc(sizeof(int));
     list->amount = 0;
 }
 
