@@ -10,7 +10,7 @@ typedef struct match
 match *create_match_list()
 {
     match *new_match = malloc(sizeof(match));
-    new_match->index_list = malloc(sizeof(int *));
+    new_match->index_list = malloc(sizeof(int));
     new_match->amount = 0;
     return new_match;
 }
@@ -18,6 +18,7 @@ match *create_match_list()
 void add_match(match **matches_list, int value)
 {
     match *list = (*matches_list);
+    list->index_list = realloc(list->index_list, sizeof(int) * list->amount + 1);
     list->index_list[list->amount] = value;
     list->amount++;
 }
